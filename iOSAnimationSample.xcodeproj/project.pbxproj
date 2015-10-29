@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC2050D31BC2CB0C002ECADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2050D21BC2CB0C002ECADA /* AppDelegate.swift */; };
+		DC2050D51BC2CB0C002ECADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2050D41BC2CB0C002ECADA /* ViewController.swift */; };
+		DC2050D81BC2CB0C002ECADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2050D61BC2CB0C002ECADA /* Main.storyboard */; };
+		DC2050DA1BC2CB0C002ECADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2050D91BC2CB0C002ECADA /* Assets.xcassets */; };
+		DC2050DD1BC2CB0C002ECADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2050DB1BC2CB0C002ECADA /* LaunchScreen.storyboard */; };
+		DC2050E81BC2CB0C002ECADA /* iOSAnimationSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2050E71BC2CB0C002ECADA /* iOSAnimationSampleTests.swift */; };
+		DC2050F31BC2CB0C002ECADA /* iOSAnimationSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2050F21BC2CB0C002ECADA /* iOSAnimationSampleUITests.swift */; };
+		DC2051011BC2D918002ECADA /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2051001BC2D918002ECADA /* PositionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		DC52B3F81BC65F5F00CA2110 /* RotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC52B3F71BC65F5F00CA2110 /* RotationViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		DCD0D09F1BC5591B0058C156 /* OpacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD0D09E1BC5591B0058C156 /* OpacityViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		DCD0D0A11BC55EA30058C156 /* SacleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD0D0A01BC55EA30058C156 /* SacleViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC2050E41BC2CB0C002ECADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC2050C71BC2CB0C002ECADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC2050CE1BC2CB0C002ECADA;
+			remoteInfo = iOSAnimationSample;
+		};
+		DC2050EF1BC2CB0C002ECADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC2050C71BC2CB0C002ECADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC2050CE1BC2CB0C002ECADA;
+			remoteInfo = iOSAnimationSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC2050CF1BC2CB0C002ECADA /* iOSAnimationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSAnimationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2050D21BC2CB0C002ECADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC2050D41BC2CB0C002ECADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC2050D71BC2CB0C002ECADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC2050D91BC2CB0C002ECADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC2050DC1BC2CB0C002ECADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC2050DE1BC2CB0C002ECADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2050E31BC2CB0C002ECADA /* iOSAnimationSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAnimationSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2050E71BC2CB0C002ECADA /* iOSAnimationSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAnimationSampleTests.swift; sourceTree = "<group>"; };
+		DC2050E91BC2CB0C002ECADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2050EE1BC2CB0C002ECADA /* iOSAnimationSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAnimationSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2050F21BC2CB0C002ECADA /* iOSAnimationSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAnimationSampleUITests.swift; sourceTree = "<group>"; };
+		DC2050F41BC2CB0C002ECADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2051001BC2D918002ECADA /* PositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
+		DC52B3F71BC65F5F00CA2110 /* RotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationViewController.swift; sourceTree = "<group>"; };
+		DCD0D09E1BC5591B0058C156 /* OpacityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpacityViewController.swift; sourceTree = "<group>"; };
+		DCD0D0A01BC55EA30058C156 /* SacleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SacleViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC2050CC1BC2CB0C002ECADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2050E01BC2CB0C002ECADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2050EB1BC2CB0C002ECADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC2050C61BC2CB0C002ECADA = {
+			isa = PBXGroup;
+			children = (
+				DC2050D11BC2CB0C002ECADA /* iOSAnimationSample */,
+				DC2050E61BC2CB0C002ECADA /* iOSAnimationSampleTests */,
+				DC2050F11BC2CB0C002ECADA /* iOSAnimationSampleUITests */,
+				DC2050D01BC2CB0C002ECADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC2050D01BC2CB0C002ECADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC2050CF1BC2CB0C002ECADA /* iOSAnimationSample.app */,
+				DC2050E31BC2CB0C002ECADA /* iOSAnimationSampleTests.xctest */,
+				DC2050EE1BC2CB0C002ECADA /* iOSAnimationSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC2050D11BC2CB0C002ECADA /* iOSAnimationSample */ = {
+			isa = PBXGroup;
+			children = (
+				DC2050D21BC2CB0C002ECADA /* AppDelegate.swift */,
+				DC2050D41BC2CB0C002ECADA /* ViewController.swift */,
+				DC2051001BC2D918002ECADA /* PositionViewController.swift */,
+				DCD0D09E1BC5591B0058C156 /* OpacityViewController.swift */,
+				DCD0D0A01BC55EA30058C156 /* SacleViewController.swift */,
+				DC52B3F71BC65F5F00CA2110 /* RotationViewController.swift */,
+				DC2050D61BC2CB0C002ECADA /* Main.storyboard */,
+				DC2050D91BC2CB0C002ECADA /* Assets.xcassets */,
+				DC2050DB1BC2CB0C002ECADA /* LaunchScreen.storyboard */,
+				DC2050DE1BC2CB0C002ECADA /* Info.plist */,
+			);
+			path = iOSAnimationSample;
+			sourceTree = "<group>";
+		};
+		DC2050E61BC2CB0C002ECADA /* iOSAnimationSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC2050E71BC2CB0C002ECADA /* iOSAnimationSampleTests.swift */,
+				DC2050E91BC2CB0C002ECADA /* Info.plist */,
+			);
+			path = iOSAnimationSampleTests;
+			sourceTree = "<group>";
+		};
+		DC2050F11BC2CB0C002ECADA /* iOSAnimationSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC2050F21BC2CB0C002ECADA /* iOSAnimationSampleUITests.swift */,
+				DC2050F41BC2CB0C002ECADA /* Info.plist */,
+			);
+			path = iOSAnimationSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC2050CE1BC2CB0C002ECADA /* iOSAnimationSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2050F71BC2CB0C002ECADA /* Build configuration list for PBXNativeTarget "iOSAnimationSample" */;
+			buildPhases = (
+				DC2050CB1BC2CB0C002ECADA /* Sources */,
+				DC2050CC1BC2CB0C002ECADA /* Frameworks */,
+				DC2050CD1BC2CB0C002ECADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSAnimationSample;
+			productName = iOSAnimationSample;
+			productReference = DC2050CF1BC2CB0C002ECADA /* iOSAnimationSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC2050E21BC2CB0C002ECADA /* iOSAnimationSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2050FA1BC2CB0C002ECADA /* Build configuration list for PBXNativeTarget "iOSAnimationSampleTests" */;
+			buildPhases = (
+				DC2050DF1BC2CB0C002ECADA /* Sources */,
+				DC2050E01BC2CB0C002ECADA /* Frameworks */,
+				DC2050E11BC2CB0C002ECADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC2050E51BC2CB0C002ECADA /* PBXTargetDependency */,
+			);
+			name = iOSAnimationSampleTests;
+			productName = iOSAnimationSampleTests;
+			productReference = DC2050E31BC2CB0C002ECADA /* iOSAnimationSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC2050ED1BC2CB0C002ECADA /* iOSAnimationSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2050FD1BC2CB0C002ECADA /* Build configuration list for PBXNativeTarget "iOSAnimationSampleUITests" */;
+			buildPhases = (
+				DC2050EA1BC2CB0C002ECADA /* Sources */,
+				DC2050EB1BC2CB0C002ECADA /* Frameworks */,
+				DC2050EC1BC2CB0C002ECADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC2050F01BC2CB0C002ECADA /* PBXTargetDependency */,
+			);
+			name = iOSAnimationSampleUITests;
+			productName = iOSAnimationSampleUITests;
+			productReference = DC2050EE1BC2CB0C002ECADA /* iOSAnimationSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC2050C71BC2CB0C002ECADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ChenCynthia;
+				TargetAttributes = {
+					DC2050CE1BC2CB0C002ECADA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DC2050E21BC2CB0C002ECADA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DC2050CE1BC2CB0C002ECADA;
+					};
+					DC2050ED1BC2CB0C002ECADA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DC2050CE1BC2CB0C002ECADA;
+					};
+				};
+			};
+			buildConfigurationList = DC2050CA1BC2CB0C002ECADA /* Build configuration list for PBXProject "iOSAnimationSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC2050C61BC2CB0C002ECADA;
+			productRefGroup = DC2050D01BC2CB0C002ECADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC2050CE1BC2CB0C002ECADA /* iOSAnimationSample */,
+				DC2050E21BC2CB0C002ECADA /* iOSAnimationSampleTests */,
+				DC2050ED1BC2CB0C002ECADA /* iOSAnimationSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC2050CD1BC2CB0C002ECADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2050DD1BC2CB0C002ECADA /* LaunchScreen.storyboard in Resources */,
+				DC2050DA1BC2CB0C002ECADA /* Assets.xcassets in Resources */,
+				DC2050D81BC2CB0C002ECADA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2050E11BC2CB0C002ECADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2050EC1BC2CB0C002ECADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC2050CB1BC2CB0C002ECADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD0D0A11BC55EA30058C156 /* SacleViewController.swift in Sources */,
+				DC2051011BC2D918002ECADA /* PositionViewController.swift in Sources */,
+				DC52B3F81BC65F5F00CA2110 /* RotationViewController.swift in Sources */,
+				DC2050D51BC2CB0C002ECADA /* ViewController.swift in Sources */,
+				DCD0D09F1BC5591B0058C156 /* OpacityViewController.swift in Sources */,
+				DC2050D31BC2CB0C002ECADA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2050DF1BC2CB0C002ECADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2050E81BC2CB0C002ECADA /* iOSAnimationSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2050EA1BC2CB0C002ECADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2050F31BC2CB0C002ECADA /* iOSAnimationSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC2050E51BC2CB0C002ECADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC2050CE1BC2CB0C002ECADA /* iOSAnimationSample */;
+			targetProxy = DC2050E41BC2CB0C002ECADA /* PBXContainerItemProxy */;
+		};
+		DC2050F01BC2CB0C002ECADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC2050CE1BC2CB0C002ECADA /* iOSAnimationSample */;
+			targetProxy = DC2050EF1BC2CB0C002ECADA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC2050D61BC2CB0C002ECADA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2050D71BC2CB0C002ECADA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC2050DB1BC2CB0C002ECADA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2050DC1BC2CB0C002ECADA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC2050F51BC2CB0C002ECADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC2050F61BC2CB0C002ECADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC2050F81BC2CB0C002ECADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSAnimationSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChenCynthia.iOSAnimationSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC2050F91BC2CB0C002ECADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSAnimationSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChenCynthia.iOSAnimationSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC2050FB1BC2CB0C002ECADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSAnimationSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChenCynthia.iOSAnimationSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSAnimationSample.app/iOSAnimationSample";
+			};
+			name = Debug;
+		};
+		DC2050FC1BC2CB0C002ECADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSAnimationSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChenCynthia.iOSAnimationSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSAnimationSample.app/iOSAnimationSample";
+			};
+			name = Release;
+		};
+		DC2050FE1BC2CB0C002ECADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOSAnimationSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChenCynthia.iOSAnimationSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOSAnimationSample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DC2050FF1BC2CB0C002ECADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOSAnimationSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChenCynthia.iOSAnimationSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOSAnimationSample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC2050CA1BC2CB0C002ECADA /* Build configuration list for PBXProject "iOSAnimationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2050F51BC2CB0C002ECADA /* Debug */,
+				DC2050F61BC2CB0C002ECADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC2050F71BC2CB0C002ECADA /* Build configuration list for PBXNativeTarget "iOSAnimationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2050F81BC2CB0C002ECADA /* Debug */,
+				DC2050F91BC2CB0C002ECADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC2050FA1BC2CB0C002ECADA /* Build configuration list for PBXNativeTarget "iOSAnimationSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2050FB1BC2CB0C002ECADA /* Debug */,
+				DC2050FC1BC2CB0C002ECADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC2050FD1BC2CB0C002ECADA /* Build configuration list for PBXNativeTarget "iOSAnimationSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2050FE1BC2CB0C002ECADA /* Debug */,
+				DC2050FF1BC2CB0C002ECADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC2050C71BC2CB0C002ECADA /* Project object */;
+}
